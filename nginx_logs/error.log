@@ -1,0 +1,58 @@
+2025/10/31 12:24:10 [notice] 8#8: using the "epoll" event method
+2025/10/31 12:24:10 [notice] 8#8: nginx/1.29.3
+2025/10/31 12:24:10 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 12:24:10 [notice] 8#8: OS: Linux 5.15.0-91-generic
+2025/10/31 12:24:10 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 12:24:10 [notice] 8#8: start worker processes
+2025/10/31 12:24:10 [notice] 8#8: start worker process 9
+2025/10/31 12:24:10 [notice] 8#8: start worker process 10
+2025/10/31 12:52:30 [notice] 8#8: using the "epoll" event method
+2025/10/31 12:52:30 [notice] 8#8: nginx/1.29.3
+2025/10/31 12:52:30 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 12:52:30 [notice] 8#8: OS: Linux 5.15.0-91-generic
+2025/10/31 12:52:30 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 12:52:30 [notice] 8#8: start worker processes
+2025/10/31 12:52:30 [notice] 8#8: start worker process 9
+2025/10/31 12:52:30 [notice] 8#8: start worker process 10
+2025/10/31 14:48:37 [notice] 8#8: using the "epoll" event method
+2025/10/31 14:48:37 [notice] 8#8: nginx/1.29.3
+2025/10/31 14:48:37 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 14:48:37 [notice] 8#8: OS: Linux 5.15.0-91-generic
+2025/10/31 14:48:37 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 14:48:37 [notice] 8#8: start worker processes
+2025/10/31 14:48:37 [notice] 8#8: start worker process 9
+2025/10/31 14:48:37 [notice] 8#8: start worker process 10
+2025/10/31 15:19:35 [notice] 8#8: using the "epoll" event method
+2025/10/31 15:19:35 [notice] 8#8: nginx/1.29.3
+2025/10/31 15:19:35 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 15:19:35 [notice] 8#8: OS: Linux 5.15.0-91-generic
+2025/10/31 15:19:35 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 15:19:35 [notice] 8#8: start worker processes
+2025/10/31 15:19:35 [notice] 8#8: start worker process 9
+2025/10/31 15:19:35 [notice] 8#8: start worker process 10
+2025/10/31 15:48:15 [notice] 8#8: using the "epoll" event method
+2025/10/31 15:48:15 [notice] 8#8: nginx/1.29.3
+2025/10/31 15:48:15 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 15:48:15 [notice] 8#8: OS: Linux 5.15.0-91-generic
+2025/10/31 15:48:15 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 15:48:15 [notice] 8#8: start worker processes
+2025/10/31 15:48:15 [notice] 8#8: start worker process 9
+2025/10/31 15:48:15 [notice] 8#8: start worker process 10
+2025/10/31 15:53:00 [warn] 9#9: *5 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.19.0.3:3000/", host: "localhost:8080"
+2025/10/31 15:53:00 [error] 9#9: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.19.0.3:3000/", host: "localhost:8080"
+2025/10/31 17:34:01 [notice] 8#8: using the "epoll" event method
+2025/10/31 17:34:01 [notice] 8#8: nginx/1.29.3
+2025/10/31 17:34:01 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 17:34:01 [notice] 8#8: OS: Linux 5.15.0-91-generic
+2025/10/31 17:34:01 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 17:34:01 [notice] 8#8: start worker processes
+2025/10/31 17:34:01 [notice] 8#8: start worker process 9
+2025/10/31 17:34:01 [notice] 8#8: start worker process 10
+2025/10/31 17:41:33 [notice] 7#7: using the "epoll" event method
+2025/10/31 17:41:33 [notice] 7#7: nginx/1.29.3
+2025/10/31 17:41:33 [notice] 7#7: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 17:41:33 [notice] 7#7: OS: Linux 5.15.0-91-generic
+2025/10/31 17:41:33 [notice] 7#7: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 17:41:33 [notice] 7#7: start worker processes
+2025/10/31 17:41:33 [notice] 7#7: start worker process 8
+2025/10/31 17:41:33 [notice] 7#7: start worker process 9
