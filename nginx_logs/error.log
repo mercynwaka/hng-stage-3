@@ -56,3 +56,71 @@
 2025/10/31 17:41:33 [notice] 7#7: start worker processes
 2025/10/31 17:41:33 [notice] 7#7: start worker process 8
 2025/10/31 17:41:33 [notice] 7#7: start worker process 9
+2025/10/31 18:38:48 [notice] 8#8: using the "epoll" event method
+2025/10/31 18:38:48 [notice] 8#8: nginx/1.29.3
+2025/10/31 18:38:48 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 18:38:48 [notice] 8#8: OS: Linux 6.14.0-1011-aws
+2025/10/31 18:38:48 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 18:38:48 [notice] 8#8: start worker processes
+2025/10/31 18:38:48 [notice] 8#8: start worker process 9
+2025/10/31 18:38:48 [notice] 8#8: start worker process 10
+2025/10/31 18:51:37 [warn] 10#10: *7 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD / HTTP/1.1", upstream: "http://172.18.0.2:3000/", host: "localhost:8080"
+2025/10/31 18:51:37 [error] 10#10: *7 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD / HTTP/1.1", upstream: "http://172.18.0.2:3000/", host: "localhost:8080"
+2025/10/31 18:56:03 [warn] 10#10: *10 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD / HTTP/1.1", upstream: "http://172.18.0.2:3000/", host: "localhost:8080"
+2025/10/31 18:56:03 [error] 10#10: *10 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD / HTTP/1.1", upstream: "http://172.18.0.2:3000/", host: "localhost:8080"
+2025/10/31 18:56:42 [warn] 10#10: *13 upstream server temporarily disabled while connecting to upstream, client: 172.202.117.220, server: localhost, request: "GET /hudson HTTP/1.1", upstream: "http://172.18.0.2:3000/hudson", host: "3.90.205.245:8080"
+2025/10/31 18:56:42 [error] 10#10: *13 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.202.117.220, server: localhost, request: "GET /hudson HTTP/1.1", upstream: "http://172.18.0.2:3000/hudson", host: "3.90.205.245:8080"
+2025/10/31 19:11:46 [warn] 10#10: *16 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD / HTTP/1.1", upstream: "http://172.18.0.2:3000/", host: "localhost:8080"
+2025/10/31 19:11:46 [error] 10#10: *16 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD / HTTP/1.1", upstream: "http://172.18.0.2:3000/", host: "localhost:8080"
+2025/10/31 19:20:01 [warn] 10#10: *21 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD /this-will-error HTTP/1.1", upstream: "http://172.18.0.2:3000/this-will-error", host: "localhost:8080"
+2025/10/31 19:20:01 [error] 10#10: *21 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD /this-will-error HTTP/1.1", upstream: "http://172.18.0.2:3000/this-will-error", host: "localhost:8080"
+2025/10/31 19:20:01 [warn] 9#9: *42 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD /this-will-error HTTP/1.1", upstream: "http://172.18.0.2:3000/this-will-error", host: "localhost:8080"
+2025/10/31 19:20:01 [error] 9#9: *42 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "HEAD /this-will-error HTTP/1.1", upstream: "http://172.18.0.2:3000/this-will-error", host: "localhost:8080"
+2025/10/31 21:05:15 [notice] 8#8: using the "epoll" event method
+2025/10/31 21:05:15 [notice] 8#8: nginx/1.29.3
+2025/10/31 21:05:15 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 21:05:15 [notice] 8#8: OS: Linux 6.14.0-1011-aws
+2025/10/31 21:05:15 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 21:05:15 [notice] 8#8: start worker processes
+2025/10/31 21:05:15 [notice] 8#8: start worker process 9
+2025/10/31 21:05:15 [notice] 8#8: start worker process 10
+2025/10/31 21:26:56 [notice] 8#8: using the "epoll" event method
+2025/10/31 21:26:56 [notice] 8#8: nginx/1.29.3
+2025/10/31 21:26:56 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 21:26:56 [notice] 8#8: OS: Linux 6.14.0-1011-aws
+2025/10/31 21:26:56 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 21:26:56 [notice] 8#8: start worker processes
+2025/10/31 21:26:56 [notice] 8#8: start worker process 9
+2025/10/31 21:26:56 [notice] 8#8: start worker process 10
+2025/10/31 21:55:27 [notice] 8#8: using the "epoll" event method
+2025/10/31 21:55:27 [notice] 8#8: nginx/1.29.3
+2025/10/31 21:55:27 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 21:55:27 [notice] 8#8: OS: Linux 6.14.0-1011-aws
+2025/10/31 21:55:27 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 21:55:27 [notice] 8#8: start worker processes
+2025/10/31 21:55:27 [notice] 8#8: start worker process 9
+2025/10/31 21:55:27 [notice] 8#8: start worker process 10
+2025/10/31 22:15:12 [notice] 7#7: using the "epoll" event method
+2025/10/31 22:15:12 [notice] 7#7: nginx/1.29.3
+2025/10/31 22:15:12 [notice] 7#7: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 22:15:12 [notice] 7#7: OS: Linux 6.14.0-1011-aws
+2025/10/31 22:15:12 [notice] 7#7: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 22:15:12 [notice] 7#7: start worker processes
+2025/10/31 22:15:12 [notice] 7#7: start worker process 8
+2025/10/31 22:15:12 [notice] 7#7: start worker process 9
+2025/10/31 22:32:35 [notice] 9#9: using the "epoll" event method
+2025/10/31 22:32:35 [notice] 9#9: nginx/1.29.3
+2025/10/31 22:32:35 [notice] 9#9: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 22:32:35 [notice] 9#9: OS: Linux 6.14.0-1011-aws
+2025/10/31 22:32:35 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 22:32:35 [notice] 9#9: start worker processes
+2025/10/31 22:32:35 [notice] 9#9: start worker process 10
+2025/10/31 22:32:35 [notice] 9#9: start worker process 11
+2025/10/31 22:36:23 [notice] 8#8: using the "epoll" event method
+2025/10/31 22:36:23 [notice] 8#8: nginx/1.29.3
+2025/10/31 22:36:23 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/31 22:36:23 [notice] 8#8: OS: Linux 6.14.0-1011-aws
+2025/10/31 22:36:23 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/10/31 22:36:23 [notice] 8#8: start worker processes
+2025/10/31 22:36:23 [notice] 8#8: start worker process 9
+2025/10/31 22:36:23 [notice] 8#8: start worker process 10

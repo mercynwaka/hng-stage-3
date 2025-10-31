@@ -50,6 +50,9 @@ services:
   alert_watcher:
     image: python:3.12-slim
     container_name: alert_watcher
+    ports:
+      - "3000:3000"
+  
     volumes:
       - ./nginx_logs:/var/log/nginx
       - ./watcher/watcher.py:/watcher/watcher.py:ro
