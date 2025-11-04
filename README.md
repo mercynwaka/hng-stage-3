@@ -27,7 +27,8 @@ hng-stage-3/
 ├── watcher/
 │   ├── watcher.py
 │   ├── requirements.txt
-│   └── data/
+│--- nginx
+│    ├──nginx.template.conf
 ├── .env
 ├── runbook.md
 └── README.md
@@ -58,14 +59,14 @@ alert_watcher (Python service)
 
 Shared log volume /var/log/nginx
 
-🧪 Chaos Testing Steps
+ Chaos Testing Steps
 ▶️ Enable Chaos Mode
 
 Chaos mode randomly disrupts one pool to simulate service instability:
 
 docker exec -it alert_watcher chaos_mode on
 
-🌀 Trigger Load and Failover
+ Trigger Load and Failover
 
 Send multiple requests to simulate normal traffic:
 
@@ -109,7 +110,7 @@ docker logs -f alert_watcher
 Look for entries such as:
 
 ✅ Slack alert sent: FAILOVER DETECTED
-⚠️ High error rate detected: 5.5%
+⚠️ High error rate detected: 3.00%
 
 💬 Slack Alerts Verification
 ✅ Test Alert
