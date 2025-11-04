@@ -54,7 +54,7 @@ Trigger:
 Slack Message Example:
 
 ⚠️ High Error Rate Detected!
-Error Rate: 5.50% 5xx responses over last 200 requests
+Error Rate: 3.00% 5xx responses over last 200 requests
 
 Operator Action:
 
